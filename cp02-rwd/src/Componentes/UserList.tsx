@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+// consumo de API para retornar usuários
 const UserList: React.FC = () => {
   const [users, setUsers] = useState([]);
 

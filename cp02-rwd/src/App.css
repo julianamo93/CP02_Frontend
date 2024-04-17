@@ -1,3 +1,43 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
     background-color: rgb(248, 237, 237);
 }
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
+}
+
+.home {
+    display: inline-block; 
+    padding: 1rem;
+    background-color: lightblue;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 1rem;
+    max-width: 80%; 
+    box-shadow: 0 0 0 2px rgba(135, 99, 218, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.home:hover {
+    transform: scale(1.05); 
+    background-color: lightpink;
+}
+
+.home p {
+    text-align: justify; 
+}
+
+.home h2 {    
+    color: rgb(248, 132, 184);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: PlayFair Display;
+    margin-bottom: 20px; 
+}
+

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+// consumo de API para retornar fotos
 const PhotoGallery: React.FC = () => {
   const [photos, setPhotos] = useState([]);
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+// consumo de API para retornar posts
 const PostList: React.FC = () =>{
     const [posts, setPosts] = useState([]);
 
