@@ -7,7 +7,15 @@ body{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 30vh; 
+    min-height: 30vh; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        min-height: 20vh; /* Altura mínima reduzida para telas menores */
+    }
 }
 
 .home {
@@ -40,4 +48,12 @@ body{
     font-family: Playfair display, serif;
     color: rgb(232, 92, 158);
     margin-bottom: 20px; 
+}
+
+.home img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem; 
 }

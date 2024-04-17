@@ -25,10 +25,10 @@ function App() {
 
         <nav>
           <ul className="flex justify-center space-x-4 p-3">
-          <li><Link to='/' className="hover:text-pink-400 text-pink-600 font-bold">HOME</Link></li>
-            <li><Link to='/users' className="hover:text-pink-400 text-pink-600 font-bold">LISTA DE USUÁRIOS</Link></li>
-            <li><Link to='/posts' className="hover:text-pink-400 text-pink-600 font-bold">LISTA DE POSTS</Link></li>
-            <li><Link to='/photos' className="hover:text-pink-400 text-pink-600 font-bold">GALERIA DE FOTOS</Link></li>
+          <li><Link to='/' className="text-pink-600 font-bold hover:text-pink-400 hover:font-semibold hover:transition-all hover:duration-300">HOME</Link></li>
+            <li><Link to='/users' className="text-pink-600 font-bold hover:text-pink-400 hover:font-semibold hover:transition-all hover:duration-300">LISTA DE USUÁRIOS</Link></li>
+            <li><Link to='/posts' className="text-pink-600 font-bold hover:text-pink-400 hover:font-semibold hover:transition-all hover:duration-300">LISTA DE POSTS</Link></li>
+            <li><Link to='/photos' className="text-pink-600 font-bold hover:text-pink-400 hover:font-semibold hover:transition-all hover:duration-300">GALERIA DE FOTOS</Link></li>
           </ul>
         </nav>
 

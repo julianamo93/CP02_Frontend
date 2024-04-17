@@ -10,7 +10,8 @@ const Home = () => {
                 <p>
                     Objetivo: Desenvolver uma aplicação utilizando React, TypeScript e TailwindCSS. <br />
                     A aplicação deve consumir dados da API pública JSONPlaceholder (<a href="https://jsonplaceholder.typicode.com/" className="text-blue-500 hover:underline">https://jsonplaceholder.typicode.com/</a>) utilizando fetch. <br />
-                    O sistema deverá ter um layout organizado com um menu de navegação e pelo menos três telas, cada uma acessada por rotas específicas.
+                    O sistema deverá ter um layout organizado com um menu de navegação e pelo menos três telas, cada uma acessada por rotas específicas. <br />
+                    <img src="https://gifs.eco.br/wp-content/uploads/2022/11/gifs-de-programador-17.gif" alt="Programador" />
                 </p>
             </div>
         </div>
