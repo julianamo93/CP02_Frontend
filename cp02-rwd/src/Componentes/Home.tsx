@@ -1,5 +1,7 @@
 import React from "react";
 
+// componente Home, criado para melhor organização do código
+// div container para a box e div home com conteúdos CSS
 const Home = () => {
     return (
         <div className="container">

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+// componente criado para consumo de API
+// este componente retorna os Users da API
 const UserList: React.FC = () => {
   const [users, setUsers] = useState([]);
 

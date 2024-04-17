@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+// componente criado para consumo de API, utilizando fetch
+// este componente retorna os posts do consumo de API
 const PostList: React.FC = () =>{
     const [posts, setPosts] = useState([]);
 

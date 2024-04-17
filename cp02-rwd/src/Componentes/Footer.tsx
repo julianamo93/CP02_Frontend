@@ -1,5 +1,7 @@
 import React from 'react';
 
+// criação de componente Footer, para melhor organização do App
+// Utilização de icon SVG para o GitHub
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-pink-800 to-pink-300 text-white p-4">

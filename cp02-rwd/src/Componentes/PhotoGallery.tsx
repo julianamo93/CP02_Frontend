@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+// componente criado para consumo de API
+// componente que retorna as fotos no site
 const PhotoGallery: React.FC = () => {
   const [photos, setPhotos] = useState([]);
 
